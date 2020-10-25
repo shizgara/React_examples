@@ -1,0 +1,9 @@
+.calculator{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.calculator div{
+  margin-top: 10px;
+  text-align: center;
+}
