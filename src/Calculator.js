@@ -18,6 +18,7 @@ class Calculator extends Component{
     this.handleOperationChange = this.handleOperationChange.bind(this)
   }
 
+  /*Функція якрай приймає значення this.operation(знак) і методом switch робить ту чи іншу дію, а резутьтат записує в this.state.result */
   showResult(){
 
     let result = 0;
