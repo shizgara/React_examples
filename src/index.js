@@ -19,8 +19,8 @@ var images2 =[
 
 ReactDOM.render(
   <div>
-    <Slider images={images1} index="0"/>
-    <Slider images={images2} index="1"/>
+    <Slider images={images1} index={0}/>
+    <Slider images={images2} index={1}/>
   </div>,
   document.getElementById('root')
 );
